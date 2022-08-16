@@ -1,0 +1,7 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+api_o2o:
+    path:     /punk_api
+    defaults: { _controller: AppBundle:Api:call }
