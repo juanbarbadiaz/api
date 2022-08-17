@@ -5,3 +5,11 @@ app:
 api_o2o:
     path:     /punk_api
     defaults: { _controller: AppBundle:Api:call }
+
+api_food_o2o:
+    path:     /punk_api_food/{food}
+    defaults: { _controller: AppBundle:Api:callFood }
+
+api_id_o2o:
+    path:     /punk_api_id/{food}
+    defaults: { _controller: AppBundle:Api:callId }
