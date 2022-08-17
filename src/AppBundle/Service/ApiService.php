@@ -4,7 +4,7 @@ namespace AppBundle\Service;
 
 use Symfony\Component\HttpFoundation\Request;
 
-class ApiService
+class ApiService implements ApiServiceInterface
 {
     public function __construct()
     {
